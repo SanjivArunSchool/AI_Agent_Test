@@ -1,0 +1,79 @@
+# --- Python cache & bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+.env/
+env/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# --- Distribution / packaging ---
+build/
+dist/
+develop-eggs/
+*.egg
+*.manifest
+*.spec
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# --- Test / coverage / reports ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# --- IDE / Editor settings ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Type checker & linter caches ---
+.mypy_cache/
+.pyre/
+.pytype/
+ruff_cache/
+
+# --- Project-specific local data ---
+instance/
+local_settings.py
+
+# --- SQLite / temporary databases ---
+*.db
+*.sqlite3
+
+# --- Environment & secrets ---
+.env.local
+.env.production
+.env.development
+.env.test
+*.pem
+*.key
+
+# --- Miscellaneous ---
+# Ignore compiled C extensions
+*.so
+
+# Ignore old backups
+*.orig
